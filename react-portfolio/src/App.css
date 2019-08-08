@@ -7,6 +7,12 @@
   background: #0F2027;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 .avatar-img {
   height: 250px;
@@ -14,7 +20,7 @@
 }
 .banner-text {
   background-color: black;
-  opacity: .8;
+  opacity: 0.7;
   width: 75%;
   margin: auto;
   border-radius: 10px;
@@ -34,4 +40,21 @@
  font-size: 20px;
  padding: 1em;
  margin: auto;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 3px;
+}
+
+.projects-grid {
+  display: flex;
 }

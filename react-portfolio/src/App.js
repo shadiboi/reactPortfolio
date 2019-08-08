@@ -10,8 +10,8 @@ function App() {
     <div>
         <div className="demo-big-content">
             <Layout>
-                <Header className='header-color' title="Shadi Aoutabachi" scroll>
-                    <Navigation>
+                <Header className='header-color' title="Shadi Aoutabachi" scroll>  
+                  <Navigation>
                         <Link to="/resume">Resume</Link>
                         <Link to="/aboutme">About Me</Link>
                         <Link to="/projects">Projects</Link>
